@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@color/blueP"
+        android:padding="5dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="94dp"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                tools:srcCompat="@mipmap/LogoP_foreground" />
+
+            <TextView
+                android:id="@+id/tvBienvenidaUsu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="@string/tvBienvenidaUsu"
+                android:textColor="@color/white"
+                />
+        </TableRow>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvNoticias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="@string/tvNoticias"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <!--<com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:fillColor="#FFFFFF"
+        app:pageColor="#000000"
+        app:radius="8dp"
+        app:slideInterval="3000"
+        app:strokeColor="#000000"
+        app:strokeWidth="1dp"/> -->
+
+    <TextView
+        android:id="@+id/tvMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="@string/tvMapa"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+
+
+
+</LinearLayout>

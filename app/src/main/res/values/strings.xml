@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Modelo1Giigs</string>
+    <string name="tvtitulo"></string>
+    <string name="btnHuella">Huella</string>
+
+    <!-- Strings de la pantalla principal -->
+    <string name="tvBienvenida">Bienvenidos a la aplicacion</string>
+    <string name="tvNombreAplicacion">GIGS</string>
+    <string name="tvSiguiente">"Presione cualquier espacio"</string>
+
+    <!-- Strings de la Segunda Pantalla (Login) -->
+    <string name="tvLogo">GIGS CONSULTING</string>
+    <string name="etUsuario">Ingrese el usuario</string>
+    <string name="etSedes">Sedes</string>
+    <string name="tvHuella">Ingrese su huella</string>
+    <!--HiperVinculo o enlace para la pantalla 3 -->
+    <string name="tvAvisoUsu">¿Olvido su usuario?</string>
+
+    <!-- Strings de la Tercera Pantalla (Login (PIN)) -->
+    <string name="etPIN">Ingrese su PIN</string>
+    <string name="btnIngresar">Avanzar</string>
+    <!--HiperVinculo o enlace para la pantalla 4 -->
+    <string name="tvAvisoPin">¿Olvido su PIN?</string>
+
+    <!-- Strings de la ventana flotante -->
+    <string name="tvFlotante">COMUNICARSE CON LOS ADMINISTRADORES</string>
+    <string name="tvInfoExtra">En caso de no conocer a los administradores presione aquí</string>
+
+    <!-- Strings del recuperar PIN -->
+    <string name="tvTitlePin">RECUPERACIÓN PIN</string>
+    <string name="etNuevoPIN">Ingrese un nuevo PIN</string>
+    <string name="etValidNuePIN">Ingrese nuevamente el PIN</string>
+    <string name="tvMensajePin">Asegurese de que ambos PIN sean iguales</string>
+
+    <!-- Strings del Main -->
+    <string name="tvBienvenidaUsu">Bienvenido (@usuario)</string>
+    <string name="tvNoticias">Noticias de la sede</string>
+    <string name="tvMapa">Mapeado de la sede</string>
+</resources>

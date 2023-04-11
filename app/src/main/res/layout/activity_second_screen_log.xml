@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".SecondScreen"
+    android:gravity="center"
+    android:layout_centerInParent="true">
+
+    <ImageView
+        android:id="@+id/LogoS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:padding="10dp"
+        android:scaleType="center"
+        app:srcCompat="@drawable/Logos" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:tint="#D58BC34A"
+            tools:ignore="UseAppTint"
+            app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+        <EditText
+            android:id="@+id/etUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_background"
+            android:padding="4dp"
+            android:text="@string/etUsuario"
+            android:textColor="@color/grayP" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            app:srcCompat="@mipmap/Map_foreground"
+            android:tint="#D58BC34A"
+            tools:ignore="UseAppTint"/>
+
+        <EditText
+            android:id="@+id/etSedes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_background"
+            android:padding="4dp"
+            android:text="@string/etSedes"
+            android:textColor="@color/grayP" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp">
+
+        <ImageView
+            android:id="@+id/ivPIN"
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:tint="#D58BC34A"
+            tools:ignore="UseAppTint"
+            app:srcCompat="@mipmap/ImgSecure_foreground" />
+
+        <EditText
+            android:id="@+id/etPIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_background"
+            android:padding="4dp"
+            android:text="@string/etPIN"
+            android:textColor="@color/grayP" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp">
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="@string/btnIngresar"
+            android:backgroundTint="#8BC34A" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvAvisoUsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="@string/tvAvisoUsu"
+        android:onClick="mostrarVentanaFlotante"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvAvisoPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="@string/tvAvisoPin"
+        android:textAlignment="center" />
+
+
+
+</LinearLayout>
