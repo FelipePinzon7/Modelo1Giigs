@@ -36,4 +36,8 @@
     <string name="tvBienvenidaUsu">Bienvenido (@usuario)</string>
     <string name="tvNoticias">Noticias de la sede</string>
     <string name="tvMapa">Mapeado de la sede</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Carro">Carro</string>
+
 </resources>

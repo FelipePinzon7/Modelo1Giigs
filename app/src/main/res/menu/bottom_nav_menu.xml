@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/hogar"
+        android:title="Home" />
+    <item
+        android:id="@+id/config"
+        android:icon="@drawable/configuracion"
+        android:title="Config" />
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/usuario"
+        android:title="User" />
+    <item
+        android:id="@+id/archivo"
+        android:icon="@drawable/carpeta"
+        android:title="Carpeta" />
+    <item
+        android:id="@+id/añadir"
+        android:icon="@drawable/anadir"
+        android:title="Añadir" />
+
+
+</menu>
